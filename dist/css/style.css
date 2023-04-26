@@ -295,7 +295,7 @@ span {
 .responsive {
   max-width: 100%;
   width: auto;
-  height: 50%;
+  height: 100%;
 }
 
 .project h2 {
