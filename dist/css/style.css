@@ -278,6 +278,9 @@ span {
   font-size: larger;
 }
 .skill-container {
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
