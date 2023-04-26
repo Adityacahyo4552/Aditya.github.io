@@ -286,15 +286,17 @@ span {
 
 .skill-container .skill-box {
   position: relative;
+  width: auto;
+  height: auto;
   border-radius: 1rem;
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
   display: flex;
 }
 
-.skill-box img {
+.responsive {
   max-width: 100%;
-  max-height: min-content;
+  width: auto;
   height: auto;
 }
 
