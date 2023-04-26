@@ -284,9 +284,9 @@ span {
   gap: 2.5rem;
 }
 
-.skill-container .card-box {
+.skill-container .skill-box {
   position: relative;
-  width: 100%;
+  width: 50%;
   height: auto;
   border-radius: 1rem;
   box-shadow: 0 0 1rem var(--bg-color);
@@ -296,6 +296,7 @@ span {
 
 .responsive {
   max-width: 100%;
+  width: auto;
   height: auto;
 }
 
