@@ -286,8 +286,6 @@ span {
 
 .skill-container .skill-box {
   position: relative;
-  width: 50%;
-  height: auto;
   border-radius: 1rem;
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
@@ -297,7 +295,7 @@ span {
 .responsive {
   max-width: 100%;
   width: auto;
-  height: auto;
+  height: 50%;
 }
 
 .project h2 {
