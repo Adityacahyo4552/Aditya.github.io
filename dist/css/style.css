@@ -167,7 +167,7 @@ section {
   padding: 1rem 2.8rem;
   background: var(--main-color);
   border-radius: 4rem;
-  box-shadow: 0 0 1rem var(--main-color);
+  box-shadow: 0 0 1px var(--main-color);
   font-size: 1.6rem;
   color: var(--second-bg-color);
   letter-spacing: 0.1rem;
@@ -183,7 +183,7 @@ section {
   display: inline-block;
   padding: 1rem 2.8rem;
   border-radius: 4rem;
-  border: 0.2rem solid var(--main-color);
+  border: 0.1rem solid var(--main-color);
   font-size: 1.6rem;
   color: var(--main-color);
   letter-spacing: 0.1rem;
