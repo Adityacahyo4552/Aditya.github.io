@@ -63,10 +63,10 @@ section {
 }
 
 .navbar a {
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 500;
   color: var(--text-color);
-  margin-left: 1.5rem;
+  margin-left: 1rem;
   transition: 0.3s;
 }
 
@@ -219,9 +219,8 @@ section {
   font-size: 4.5rem;
 }
 
-.about-content h2 {
-  text-align: left;
-  line-height: 1.2;
+.heading span {
+  color: var(--main-color);
 }
 
 .about-content h3 {
@@ -289,7 +288,7 @@ section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap: 2.5rem;
+  gap: 2rem;
 }
 
 .skill-container .skill-box {
@@ -298,6 +297,10 @@ section {
   box-shadow: 0 0 1rem var(--bg-color);
   overflow: hidden;
   display: flex;
+}
+
+.skill-box img {
+  width: 100%;
 }
 
 .responsive {
@@ -492,6 +495,9 @@ section {
 }
 
 @media (max-width: 768px) {
+  html {
+    font-size: 51%;
+  }
   #menu-icon {
     display: block;
   }
@@ -527,7 +533,7 @@ section {
   }
 
   .home-content h1 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .home-img img {
@@ -555,10 +561,16 @@ section {
   .project-container {
     grid-template-columns: repeat(2, 1fr);
   }
+  .skill-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 617px) {
   .project-container {
+    grid-template-columns: 1fr;
+  }
+  .skill-container {
     grid-template-columns: 1fr;
   }
 }
