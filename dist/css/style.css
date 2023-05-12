@@ -67,7 +67,7 @@ section {
   font-size: 1.5rem;
   font-weight: 500;
   color: var(--text-color);
-  margin-left: 1rem;
+  margin-left: 2rem;
   transition: 0.3s;
 }
 
@@ -168,10 +168,11 @@ section {
   display: inline-block;
   padding: 1rem 2.8rem;
   background: var(--main-color);
-  border-radius: 4rem;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   box-shadow: 0 0 1px var(--main-color);
   font-size: 1.6rem;
-  color: var(--second-bg-color);
+  color: var(--bg-color);
   letter-spacing: 0.1rem;
   font-weight: 800;
   margin: 3rem 1.5rem 3rem 0;
@@ -184,7 +185,8 @@ section {
 .btn-cont {
   display: inline-block;
   padding: 1rem 2.8rem;
-  border-radius: 4rem;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   border: 0.1rem solid var(--main-color);
   font-size: 1.6rem;
   color: var(--main-color);
@@ -425,6 +427,7 @@ section {
 .contact form .btn {
   margin-top: 2rem;
   cursor: pointer;
+  color: var(--bg-color);
 }
 
 .footer {
@@ -444,6 +447,10 @@ section {
   text-decoration: underline;
 }
 
+.footer-text a:hover {
+  color: var(--main-color);
+}
+
 .footer-iconTop a {
   display: inline-flex;
   justify-content: center;
@@ -460,7 +467,7 @@ section {
 
 .footer-iconTop a i {
   font-size: 2.4rem;
-  color: var(--second-bg-color);
+  color: var(--bg-color);
 }
 
 /* BREAKPOINTS */

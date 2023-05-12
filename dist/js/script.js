@@ -39,19 +39,26 @@ window.onscroll = () => {
 
 /*============= secroll reveal ==============*/
 ScrollReveal({
-  // reset: true,
-  distance: "80px",
+  reset: true,
+  distance: "60px",
   duration: 2000,
   delay: 200,
 });
 
 ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
 ScrollReveal().reveal(
-  ".home-img, .services-container, .portfolio-box, .contact form",
+  ".home-img, .services-container, .skill-container , .portfolio-box, .contact form",
   { origin: "bottom" }
 );
-ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
-ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
+ScrollReveal().reveal(
+  ".home-content h1, .skill1 , .proj2 , .social-media, .about-img",
+  {
+    origin: "left",
+  }
+);
+ScrollReveal().reveal(".home-content p, .skill2 , .proj1 , .about-content", {
+  origin: "right",
+});
 
 /*============= typed js ==============*/
 const typed = new Typed(".multiple-text", {
